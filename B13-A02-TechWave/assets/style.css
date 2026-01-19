@@ -29,16 +29,6 @@
 }
 
 
-.gradient-text {
-  background: linear-gradient(
-    45deg,
-    #eebf3e,
-    #F107A3,
-    #7B2FF7
-  );
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
 
 .bg-color{
     background-color: #230E3D;
@@ -57,12 +47,6 @@
     margin: 0px auto;
     padding: 24px;
    
-}
-
-
-.logo{
-    font-weight: bold;
-    font-size: 1.5rem;
 }
 
 
@@ -176,9 +160,7 @@ gap: 32px;
 
  }
 
- /* .choose-card{
-    
- } */
+
 
  .choose-cards-container .card-1{
     grid-row: span 2;
