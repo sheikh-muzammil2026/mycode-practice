@@ -25,10 +25,10 @@
         </nav>
 
         <div class="hero">
-            <div class="hero-background">
+            <!-- <div class="hero-background">
                  <img src="./assets/hero-bg.png" alt="" class="bg-image">
             </div>
-           
+            -->
 
             <div class="hero-content">
                 <img src="./assets/hero-circle.png" alt="" class="hero-circle">
@@ -41,57 +41,66 @@
     </header>
     <main>
         <section class="about">
-           <div class="about-content">
-             <h2 class="section-title">About the Podcast</h2>
-            <p>
+           <div class="about-content display-flex">
+            
+             <h2 class="about-title">About the Podcast</h2>
+            <p class="about-description">
                 TechWave is your go-to podcast for staying ahead in the fast-paced world of technology.
                 We break down complex topics into digestible insights, explore productivity strategies that actually work,
                 and share stories of personal growth from industry leaders.</p>
-                <p>Join thousands of young professionals and tech enthusiasts who start their day with TechWave.</p>
+            <p class="bottom-description">Join thousands of young professionals and tech enthusiasts who start their day with TechWave.</p>
+
+             <hr class="horizontal">
+
+           <div class="about-cards display-flex">
+            <div class="card">
+                <p class="card-number">150K +</p>
+                <p class="stat-label">Monthly Listeners</p>
+            </div>
+            <div class="card">
+                <p class="card-number">200 +</p>
+                <p class="stat-label">Episodes Published</p>
+            </div>
+            <div class="card">
+                <p class="card-number">4.9 ★</p>
+                 <p class="stat-label">Average Rating</p>
+            </div>
+            <div class="card">
+                <p class="card-number">50 +</p>
+               <p class="stat-label">Industry Experts</p>
+            </div>
            </div>
 
-           <hr class="horizontal">
+        </div>
 
-           <div class="about-cards">
-            <div class="card">
-                <p class="card-number">150K+</p>
-                <p class="card-description">Monthly Listeners</p>
-            </div>
-            <div class="card">
-                <p class="card-number">200+</p>
-                <p class="card-description">Episodes Published</p>
-            </div>
-            <div class="card">
-                <p class="card-number">4.9★</p>
-                 <p class="card-description">Average Rating</p>
-            </div>
-            <div class="card">
-                <p class="card-number">50+</p>
-               <p class="card-description">Industry Experts</p>
-            </div>
-           </div>
+          
         </section>
 
-        <section class="why-choose">
+        <section class="why-choose bg-color">
             <h2 class="section-title">Why Choose TechWave</h2>
-            <div class="why-choose-cards">
-                <div class="card">
+            <div class="choose-cards-container">
+                <div class="card-1">
+                     <img src="./assets/headphone.png" alt="" class="card-image">
                     <h4 class="card-title">Premium Audio Quality</h4>
                     <p class="card-description">Experience crystal-clear sound with professional-grade recording equipment and expert audio engineering. Every episode is mastered for optimal listening across all devices and platforms.</p>
                 </div>
-                <div class="card">
+                <div class="card-2">
+                   <img src="./assets/device.png" alt="" >
                     <h4 class="card-title">Mobile Friendly</h4>
                     <p class="card-description">Listen on the go with seamless mobile experience and offline downloads.</p>
                 </div>
-                <div class="card">
+                <div class="card-2">
+                    <img src="./assets/location.png" alt="" class="card-image">
                     <h4 class="card-title">Global Community</h4>
                     <p class="card-description">Connect with tech enthusiasts from over 120 countries worldwide.</p>
                 </div>
-                <div class="card">
+                <div class="card-2">
+                    <img src="" alt="" class="card-image">
                     <h4 class="card-title">Exclusive Interviews</h4>
                     <p class="card-description">Get unprecedented access to industry titans, startup founders, and tech visionaries. Our host secures exclusive conversations you won't find anywhere else, diving deep into their journeys, failures, and success strategies.</p>
                 </div>
-                <div class="card">
+                <div class="card-5">
+                    <img src="./assets/resource.png" alt="" class="card-image">
                     <h4 class="card-title">Rich Resources</h4>
                     <p class="card-description">Access show notes, transcripts, and additional learning materials for every episode.</p>
                 </div>
@@ -99,8 +108,9 @@
         </section>
 
         <section class="Featured-Episodes">
-                <h3 class="Featured-heading">Featured Episodes</h3>
+                
             <div class="Featured-Episodes-cards">
+              <h3 class="Featured-heading">Featured Episodes</h3>
                 <div class="card">
                 <iframe src="#" frameborder="0"></iframe>
                 <h4 class="iframe-title">The Future of AI in Everyday Life</h4>
@@ -116,7 +126,7 @@
                 </div>
 
                 <div class="card">
-                <iframe src="#" frameborder="0"></iframe>
+                <iframe src="#" ></iframe>
                 <h4 class="iframe-title">Career Growth in Tech: A Roadmap</h4>
                 <p class="video-description">Expert advice on navigating your tech career from junior developer to senior leadership roles.</p>
                 <p class="doration"><img src="./assets/clock.png" alt=""> 42 min</p>
@@ -125,11 +135,15 @@
 
 
             <div class="host-meet">
-                <h2 class="meet-title">Meet the Host</h2>
+                <h2 class="meet-heading">Meet the Host</h2>
                 <div class="host-details">
+                    <img src="./assets/host.png" alt="" class="host-image">
                     <p class="host-name">Alex Kumar</p>
-                    <p class="host-experience">Tech entrepreneur, productivity expert, and lifelong learner. Alex has been in the tech industry for over 10 years, working with startups and Fortune 500 companies. Through TechWave, Alex shares insights from industry leaders and practical advice for anyone looking to grow in tech.</p>
-                    
+                    <p class="host-experience card-description">Tech entrepreneur, productivity expert, and lifelong learner. Alex has been in the tech industry for over 10 years, working with startups and Fortune 500 companies. Through TechWave, Alex shares insights from industry leaders and practical advice for anyone looking to grow in tech.</p>
+                    <img src="./assets/linkedin.png" alt="" class="in-icon">
+                    <img src="./assets/x.png" alt="" class="x-icon">
+                    <img src="./assets/instagram.png" alt="" class="inst-icon">
+                    <img src="./assets/youtube.png" alt="" class="youtube-icon">
                 </div>
                 
             </div>

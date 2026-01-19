@@ -4,18 +4,30 @@
     box-sizing: border-box;
 }
 
-/* body{
-    max-width: 1600px;
-} */
+
 /* shared styel  */
 
 .display-flex{
     display: flex;
 }
 
+.section-title{
+    font-size: 3rem;
+    margin-bottom: 38px;
+    text-align: center;
+    color: white;
+ }
+
 .text-color-white{
     color: white;
 }
+
+.card-description{
+    color: #ffffff;
+    line-height: 24px;
+    opacity: 60%;
+}
+
 
 .gradient-text {
   background: linear-gradient(
@@ -28,8 +40,11 @@
   -webkit-text-fill-color: transparent;
 }
 
+.bg-color{
+    background-color: #230E3D;
+}
 
-/* main style */
+/* ======================= main style ===================================*/
 
 .navbar{
      background-color: #412567;
@@ -82,8 +97,135 @@ gap: 32px;
 }
 
 
-/* hero section styles */
-/* 
-.hero-image{
-   
-} */
+/*================================= hero section styles ============================*/
+
+
+.hero{
+   background-image: url(./hero-bg.png);
+}
+
+/* ============= about section ============== */
+
+.about{
+   background-color: #1A0B2E;
+   padding: 50px 200px 120px 200px;
+   text-align: center;
+}
+
+.about-content{
+    max-width: 1200px;
+    margin: 0px auto;
+    flex-direction: column;
+}
+
+.about-title{
+    font-size: 3rem;
+    margin-bottom: 16px;
+    color: white;
+}
+
+.horizontal{
+    color: #FFFFFF;
+    opacity: 10%;
+    
+    
+}
+.about-description, .bottom-description, .stat-label{
+    font-size: 1rem;
+    opacity: 80%;
+    color: white;
+    line-height: 20px;
+    margin-bottom: 35px;
+}
+
+.stat-label{
+    text-transform: uppercase;
+     margin-bottom: 0px;
+}
+
+.about-cards{
+    justify-content: space-between;
+    margin-top: 35px;
+    text-align: center;
+}
+.about-cards .card{
+    /* border: 1px solid red; */
+    width: 240px;
+}
+.card-number{
+    color: #00FF88;
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+
+
+
+ /* =============================== why-choose section ======================================== */
+
+ .why-choose{
+    padding: 120px 200px;
+ }
+
+
+ .choose-cards-container{
+    display: grid;
+    gap: 40px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 225px);
+
+ }
+
+ /* .choose-card{
+    
+ } */
+
+ .choose-cards-container .card-1{
+    grid-row: span 2;
+    gap: 16px;
+    flex-direction: column;
+    border-radius: 40px;
+    background-color: #35116562;
+    padding: 40px;
+ }
+
+  .choose-cards-container .card-2{
+    grid-column: span 2;
+    gap: 16px;
+    flex-direction: column;
+    border-radius: 40px;
+    background-color: #35116562;
+    padding: 40px;
+  }
+
+   .choose-cards-container .card-5{
+    grid-column: span 1;
+    gap: 16px;
+    flex-direction: column;
+    border-radius: 40px;
+    background-color: #35116562;
+    padding: 40px;
+  }
+
+  .card-title{
+    color: white;
+    font-size: 1.5rem;
+     margin-bottom: 16px;
+
+  }
+
+  .card-image{
+    width: 60px;
+    height: 60px;
+     margin-bottom: 16px;
+  }
+
+
+
+  /* ============================== Featured-Episodes section ========================== */
+
+  .Featured-Episodes{
+    padding: 120px 200px;
+    background-color: #1A0B2E;
+  }
+  
